@@ -22,8 +22,8 @@ spring:
 eureka:
   instance:
     instance-id: instance1
-    # only if need connect with eureka (by request)
-    hostname: 192.168.0.21
+    # only if eureka is deployed in container
+    #  hostname: 192.168.0.21  
   client:
     service-url:
       #defaultZone: http://localhost:8761/eureka

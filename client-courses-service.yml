@@ -11,8 +11,8 @@ server:
 eureka:
   instance: 
     instance-id: instance2
-# only if need connect with eureka (by request)
-    hostname: 192.168.0.21
+  # only if eureka is deployed in container
+  #  hostname: 192.168.0.21
   client:
     service-url:
       registerWithEureka: false
